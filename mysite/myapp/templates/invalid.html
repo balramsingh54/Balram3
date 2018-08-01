@@ -1,0 +1,8 @@
+<html>
+	<body bgcolor="pink">
+	<form action="/invalid" method="post">
+		{% csrf_token %}
+			<p align="center">Sorry either username or password is wrong</p>
+	</form>
+	</body>
+</html>
